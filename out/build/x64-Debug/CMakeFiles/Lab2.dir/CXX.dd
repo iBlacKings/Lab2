@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\Lab2.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\Lab2.dir\Figura.cpp.obj: dyndep
+
+build CMakeFiles\Lab2.dir\Rectangulo.cpp.obj: dyndep
+

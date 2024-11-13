@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\Lab2.dir\\Rectangulo.cpp.obj",
+            "outputs": [
+                "C:\\Users\\gilju\\OneDrive\\Escritorio\\UNIVERSIDAD\\2_Semestre\\programacion_orientada_a_objetos\\Labs\\Lab2\\out\\build\\x64-Debug\\vc140.pdb",
+                "CMakeFiles\\Lab2.dir\\Rectangulo.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

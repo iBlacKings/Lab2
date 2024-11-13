@@ -1,0 +1,13 @@
+# ninja log v5
+4	138	7531815736623915	CMakeFiles/Lab2.dir/main.cpp.obj.ddi	b87f11a733231f3c
+8	143	7531815736677277	CMakeFiles/Lab2.dir/Figura.cpp.obj.ddi	dc211d0fb2bd26a2
+12	164	7531815736727408	CMakeFiles/Lab2.dir/Rectangulo.cpp.obj.ddi	9bf338f300540b36
+164	231	7531815737578921	CMakeFiles/Lab2.dir/CXX.dd	e55b0bf15ee5ec6e
+164	231	7531815737578921	C:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/Labs/Lab2/out/build/x64-Debug/CMakeFiles/Lab2.dir/CXXModules.json	e55b0bf15ee5ec6e
+164	231	7531815737578921	CMakeFiles/Lab2.dir/main.cpp.obj.modmap	e55b0bf15ee5ec6e
+164	231	7531815737578921	CMakeFiles/Lab2.dir/Figura.cpp.obj.modmap	e55b0bf15ee5ec6e
+164	231	7531815737578921	CMakeFiles/Lab2.dir/Rectangulo.cpp.obj.modmap	e55b0bf15ee5ec6e
+248	973	7531815744969109	CMakeFiles/Lab2.dir/Rectangulo.cpp.obj	aee4a4e11a5e94ca
+244	973	7531815744994210	CMakeFiles/Lab2.dir/Figura.cpp.obj	d09c04e805b39441
+239	1027	7531815745520247	CMakeFiles/Lab2.dir/main.cpp.obj	e4f03e75d80c7ac1
+1028	1349	7531815748539055	Lab2.exe	97849e457234fdac
