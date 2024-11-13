@@ -67,6 +67,24 @@ build CMakeFiles/Lab2.dir/Rectangulo.cpp.obj: CXX_COMPILER__Lab2_unscanned_Debug
   OBJECT_DIR = CMakeFiles\Lab2.dir
   OBJECT_FILE_DIR = CMakeFiles\Lab2.dir
 
+build CMakeFiles/Lab2.dir/Circulo.cpp.obj: CXX_COMPILER__Lab2_unscanned_Debug C$:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/Labs/Lab2/Circulo.cpp || cmake_object_order_depends_target_Lab2
+  DEP_FILE = CMakeFiles\Lab2.dir\Circulo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab2.dir
+
+build CMakeFiles/Lab2.dir/Isoceles.cpp.obj: CXX_COMPILER__Lab2_unscanned_Debug C$:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/Labs/Lab2/Isoceles.cpp || cmake_object_order_depends_target_Lab2
+  DEP_FILE = CMakeFiles\Lab2.dir\Isoceles.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab2.dir
+
+build CMakeFiles/Lab2.dir/Equilatero.cpp.obj: CXX_COMPILER__Lab2_unscanned_Debug C$:/Users/gilju/OneDrive/Escritorio/UNIVERSIDAD/2_Semestre/programacion_orientada_a_objetos/Labs/Lab2/Equilatero.cpp || cmake_object_order_depends_target_Lab2
+  DEP_FILE = CMakeFiles\Lab2.dir\Equilatero.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lab2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lab2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lab2
@@ -75,7 +93,7 @@ build CMakeFiles/Lab2.dir/Rectangulo.cpp.obj: CXX_COMPILER__Lab2_unscanned_Debug
 #############################################
 # Link the executable Lab2.exe
 
-build Lab2.exe: CXX_EXECUTABLE_LINKER__Lab2_Debug CMakeFiles/Lab2.dir/main.cpp.obj CMakeFiles/Lab2.dir/Figura.cpp.obj CMakeFiles/Lab2.dir/Rectangulo.cpp.obj
+build Lab2.exe: CXX_EXECUTABLE_LINKER__Lab2_Debug CMakeFiles/Lab2.dir/main.cpp.obj CMakeFiles/Lab2.dir/Figura.cpp.obj CMakeFiles/Lab2.dir/Rectangulo.cpp.obj CMakeFiles/Lab2.dir/Circulo.cpp.obj CMakeFiles/Lab2.dir/Isoceles.cpp.obj CMakeFiles/Lab2.dir/Equilatero.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lab2.dir

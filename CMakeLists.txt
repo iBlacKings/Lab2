@@ -7,4 +7,10 @@ add_executable(Lab2 main.cpp
         Figura.h
         Figura.cpp
         Rectangulo.h
-        Rectangulo.cpp)
+        Rectangulo.cpp
+        Circulo.h
+        Circulo.cpp
+        Isoceles.h
+        Isoceles.cpp
+        Equilatero.h
+        Equilatero.cpp)

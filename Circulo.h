@@ -4,10 +4,18 @@
 
 #ifndef CIRCULO_H
 #define CIRCULO_H
+#include "Figura.h"
 
 
+class Circulo:public Figura{
+private:
+    int radio;
 
-class Circulo {
+public:
+    Circulo(int radio, int id);
+
+    void setArea() override;
+    void setPerimetro() override;
 
 };
 
