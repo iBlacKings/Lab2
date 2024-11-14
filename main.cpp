@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <limits>
-#include <syste>
+#include <cstdlib>
 
 
+#include "Circulo.h"
 #include "Figura.h"
 #include "Rectangulo.h"
+#include "Rombo.h"
 
 void agregarFigura(std::vector<Figura*>& figuras, int& id);
 
@@ -65,13 +67,11 @@ int main() {
 
                 resultado = *figuras.at(p1) + *figuras.at(p2);
 
-                std::cout << resultado << std::endl;
+                std::cout << "Resultado: " << resultado << std::endl;
                 break;
 
             case 4:
-                exit(0);break;
-
-            default:std::cout << "Manuela boba" ;
+                system("pause");exit(0);break;
         }
     }
 }
@@ -81,7 +81,7 @@ void agregarFigura(std::vector<Figura*>& figuras, int& id) {
     std::cout << "Seleccione la figura:" << std::endl;
     std::cout << "1.Rectangulo" << std::endl;
     std::cout << "2.Circulo" << std::endl;
-    std::cout << "3.Triangulo" << std::endl;
+    std::cout << "3.Rombo" << std::endl;
 
     int figura{};
 
@@ -109,6 +109,21 @@ void agregarFigura(std::vector<Figura*>& figuras, int& id) {
             figuras.push_back(new Rectangulo(ancho, largo, id));
             ++id;
             break;
+        case 2:
+            double radio;
+            std::cout << "Ingrese el radio:"; std::cin >> radio;
+            figuras.push_back(new Circulo(radio, id));
+            id++;
+            break;
+        case 3:
+            double dMay, dMen, lado;
+            std::cout << "Ingrese la Diagonal Mayor: "; std::cin >> dMay;
+            std::cout << "Ingrese la Diagonal Menor: "; std::cin >> dMen;
+            std::cout << "Ingrese el lado: "; std::cin >> lado;
+            figuras.push_back(new Rombo(lado, dMay, dMen, id));
+            ++id;
+            break;
+
     }
 
 }

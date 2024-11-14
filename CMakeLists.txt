@@ -10,7 +10,6 @@ add_executable(Lab2 main.cpp
         Rectangulo.cpp
         Circulo.h
         Circulo.cpp
-        Isoceles.h
-        Isoceles.cpp
-        Equilatero.h
-        Equilatero.cpp)
+        Rombo.h
+        Rombo.cpp
+)
